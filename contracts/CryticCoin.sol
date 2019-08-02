@@ -20,7 +20,6 @@ contract CryticCoin is ERC20, Ownable{
 
     constructor() public{
         owner = msg.sender;
-        mint(owner, 100);
     }
 
     function mint(address addr, uint value) public onlyOwner{
