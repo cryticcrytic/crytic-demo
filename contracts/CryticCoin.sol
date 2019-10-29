@@ -18,7 +18,7 @@ contract CryticCoin is ERC20, Ownable{
     uint _totalSupply;
     address payable wallet;
 
-    function constuctor() public{
+    constructor() public{
         owner = msg.sender;
     }
 
